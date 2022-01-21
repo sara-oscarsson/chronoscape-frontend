@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/JS/user.js" defer></script>
+    <script src="/JS/admin.js" defer></script>
+    <link rel="stylesheet" href="./Styling/style.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="userDisplay"></h1>
+      <div id="logout"></div>
+    </header>
+    <h1>ADMIN</h1>
+    <h3>Available trips</h3>
+    <div id="listProducts"></div>
+    <h1>Create products</h1>
+    <div class="products">
+      <input type="text" name="Trip name" id="1" placeholder="Trip name"></input>
+      <textarea type="text" name="Description" id="2" placeholder="Description"></textarea>
+      <input type="text" name="Product price" id="3" placeholder="Price"></input>
+      <input type="file" name="image" id="4"></input>
+      <button id="createBtn">Create product</button>
+    </div>
+  </body>
+</html>
